@@ -13,3 +13,6 @@ Author: Stacy Burris
 -
 
 ## LeetCode Challenges
+
+1. [Adjacent Duplicate In String](code/leetcode/adjacentDupInString.js)
+2. [Merge Two Sorted Lists](code/leetcode/mergeTwoSortedLists.js)
