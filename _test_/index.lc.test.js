@@ -1,6 +1,9 @@
 'use strict';
 
 const lcSearchInsert = require('../code/leetcode/searchInsert.js');
+const lcDegreeArray = require('../code/leetcode/degreeofarray.js');
+
+// Leet Code question 35. Search Insert Position
 
 describe('Search Insert', () => {
     it('Test should return 0 if the target is less than index 0', () => {
@@ -25,3 +28,13 @@ expect(lcSearchInsert(numbers, target)).toStrictEqual(0);
         expect(lcSearchInsert(numbers, target)).toStrictEqual(4);
     });
 });
+
+// Leet Code Degree of an Array Challenge
+
+describe('Degree of Array', () => {
+    it('', () => {
+
+    })
+})
+
+

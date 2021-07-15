@@ -12,15 +12,17 @@
 
 
 var removeDuplicates = function (s) {
-    if (s.length < 2) return s;
-    let final = [];
+    if (s.length < 2) return s; // error checking
+    let final = []; // creates empty new array
     for (let i = 0; i < s.length; i++) {
         let last = final[final.length - 1];
         if (s[i] !== last) {
-            final.push(s[i]);
+            final.push(s[i]); // add new item to array
         } else {
-            final.pop();
+            final.pop(); // remove last item of array
         }
     }
-    return final.join('');
+    return final.join(''); // convert elements of array into a string
 };
+
+module.exports = removeDuplicates;

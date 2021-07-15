@@ -8,7 +8,7 @@ Author: Stacy Burris
 
 ## HackerRank Challenges
 
-- [Staircase](code/hackerrank/staircase.js)
+1. [Staircase](code/hackerrank/staircase.js)
 
 ## LeetCode Challenges
 
@@ -16,3 +16,8 @@ Author: Stacy Burris
 2. [Merge Two Sorted Lists](code/leetcode/mergeTwoSortedLists.js)
 3. [Degree of an Array](code/leetcode/degreeofarray.js)
 4. [Search Insert Position](code/leetcode/searchInsert.js)
+
+## Random Challenges from YearOne
+
+1. [Searching a Sorted MAatrix](code/RandomChallengesYO/searchingSortedMatrix.js)
+2. [Linked List solved w/ a HashTable](code/RandomChallengesYO/LLSolvedWHashTable.js)
