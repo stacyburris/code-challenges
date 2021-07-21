@@ -1,4 +1,4 @@
-const staircase = require('../code/hackerrank/staircase.js');
+//const staircase = require('../code/hackerrank/staircase.js');
 
 // hacker rank staircase challenge
 

@@ -1,7 +1,9 @@
 'use strict';
 
-
+// Requiring each JS page to test
 const fizzBuzz = require('../code/Practice/fizzBuzz.js');
+const findMissingValue = require('../code/Practice/findMissingValue.js');
+
 
 // Practice Question on FizzBuzz
 
@@ -28,3 +30,20 @@ describe('FizzBuzz challenge. Print integers 1 to N, but print “Fizz” if an 
         expect(fizzBuzz(15)).toEqual([1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"]);
     });
 });
+
+
+// Testing Missing Value in array challenge
+describe('Given a sorted array with integers from 1 to 10, there is one number missing. Find that number', () => {
+it('Finds missing number 4 in sorted array', () => {
+    let array = [1, 2, 3, 5, 6, 7, 8, 9, 10];
+    expect(findMissingValue(array)).toEqual([4]);
+})
+it('Finds missing number 9 in sorted array', () => {
+    let array = [1, 2, 3, 4, 5, 6, 7, 8, 10];
+    expect(findMissingValue(array)).toEqual([9]);
+})
+it('Finds both missing number 4, 9 in sorted array', () => {
+    let array = [1, 2, 3, 5, 6, 7, 8, 10];
+    expect(findMissingValue(array)).toEqual([4, 9]);
+})
+})

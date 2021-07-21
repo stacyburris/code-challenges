@@ -50,3 +50,5 @@ counter++;
   return output;
 }
 console.log(findMissingValue(nums));
+
+module.exports = findMissingValue;
