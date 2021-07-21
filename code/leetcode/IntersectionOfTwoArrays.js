@@ -50,3 +50,5 @@ return output;
 }
 intersection(nums1, nums2);
 //console.log(intersection(numbers));
+
+module.exports = intersection;
