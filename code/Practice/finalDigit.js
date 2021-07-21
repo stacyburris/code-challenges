@@ -1,3 +1,29 @@
+'use strict';
+
+// Problem Domain:
+
+// - Given a number in the form of a string, return a single digit sum of that given number
+
+// Edge Cases:
+
+// - Empty string
+// - String of non numbers
+// - 1 digit string
+// - NULL
+
+// input = "12345"
+// //array of char.
+// //interate through each char
+// //convert each char to number
+// //sum += number
+// //After iteration gives final sum
+// //convert final sum to a string
+// //repeat iterate char and sum
+// //keep going until sum < 10;
+// let num = parseInt(input[2])
+
+
+
 function finalDigit (input) {
     //input = "12345";
   let result = _helper(input);
